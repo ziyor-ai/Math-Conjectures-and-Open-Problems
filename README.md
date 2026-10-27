@@ -1,63 +1,113 @@
-# AI 认为的数学猜想前一百大排名：详尽说明
+# 数学猜想与开放问题
 
-**详尽说明 · 重要性 · 研究进展**  
-中文 · 124 页 · **2026 年 10 月 24 日版**
+### AI 百大排名与三卷资料汇编
 
-> 由中国跨学科学者，AI 爱好者 沈阳调度 AI 生成，AI 认为的数学猜想前一百大排名。
+从 100 项重点问题入门，沿三卷资料汇编追溯数学猜想、开放问题与原始研究线索。
 
-[**在线阅读 PDF**](AI_Top_100_Mathematical_Conjectures_CN.pdf) · [**下载原版 PDF**](https://github.com/ziyor-ai/AI-Top-100-Mathematical-Conjectures/raw/refs/heads/main/AI_Top_100_Mathematical_Conjectures_CN.pdf) · [**浏览完整排名**](CATALOG.md)
+**由中国跨学科学者、AI 爱好者沈阳调度 AI 生成。** 本仓库收录四份中文 PDF：2026 年 10 月 24 日版百大排名，以及 2026 年 10 月 25 日整理的三卷资料汇编。
 
-本项目发布上述成果的中文原版 PDF。从数学基础性、跨领域联系、潜在理论后果及科学与计算影响出发，文档对 **100 项数学猜想、开放问题与猜想体系**作编辑性排序。每个条目介绍命题与范围、直观意义与重要性、研究进展、AI 辅助方向及易混淆之处，并附可点击的目录、领域索引、阅读路径和参考资料。
+[百大排名](AI_Top_100_Mathematical_Conjectures_CN.pdf) · [100 项完整目录](CATALOG.md) · [第一卷](math_conjectures_census_2026-10-25.pdf) · [第二卷](math_conjectures_volume_2_supplement_2026-10-25.pdf) · [第三卷](math_conjectures_volume_3_supplement_2026-10-25.pdf)
+
+## 资料导航
+
+| 资料 | 内容与用途 | 版本 |
+| --- | --- | --- |
+| [AI 认为的数学猜想前一百大排名](AI_Top_100_Mathematical_Conjectures_CN.pdf) | 124 页；100 项猜想、开放问题与猜想体系的编辑性排序，介绍命题、重要性、研究进展与 AI 辅助方向 | 2026-10-24 |
+| [第一卷：人类数学猜想有多少？](math_conjectures_census_2026-10-25.pdf) | 规模评估与可追溯资料汇编；刊入 17,614 条已发布记录，提供编号、题名、问题表述与来源入口 | 2026-10-25 |
+| [第二卷：第一卷之外的补充目录](math_conjectures_volume_2_supplement_2026-10-25.pdf) | 80,537 条经规则筛查保留的补充记录，包括 79,521 条题名与摘录、1,016 条形式化研究声明 | 2026-10-25 |
+| [第三卷：多源补充与历史提及记录](math_conjectures_volume_3_supplement_2026-10-25.pdf) | 20,360 条补充资料，另附 9,342 个参数型开放问题实例；涵盖多源问题、历史提及与文献定位 | 2026-10-25 |
+
+点击文件名进入 GitHub 文件页。如大文件无法在线预览，请使用文件页的下载按钮。PDF 已进行无损结构压缩，保留页面内容与导航功能；页数、目录及每份 9 页的文字、链接与渲染结果已与原文件核对。
+
+## 推荐阅读路径
+
+1. **了解重要数学问题**：先读百大排名的编制说明与状态标记，再从 [Markdown 目录](CATALOG.md) 挑选感兴趣的条目。
+2. **理解猜想规模与统计方法**：先读第一卷的结论、范围定义和计数规则，再查阅具体记录。
+3. **拓展研究线索**：利用第二卷的目录摘录与形式化声明，以及第三卷的多源资料和参数型问题附录继续检索。
+4. **用于开题或文献研究**：记录候选问题的来源编号、完整假设、版本与状态，回到原始论文或来源页面核实，再确定可研究的具体问题。
+
+## 百大排名：内容与方法
 
 <p align="center">
-  <a href="AI_Top_100_Mathematical_Conjectures_CN.pdf"><img src="cover.png" alt="AI 认为的数学猜想前一百大排名：详尽说明，2026 年 10 月 24 日版封面" width="420"></a>
+  <a href="AI_Top_100_Mathematical_Conjectures_CN.pdf"><img src="cover.png" alt="AI 认为的数学猜想前一百大排名封面" width="360"></a>
 </p>
 
-## 阅读入口
+排名综合考虑数学基础性、跨领域联系、潜在理论后果，以及科学与计算影响。每个条目介绍命题与范围、直观意义与排序理由、研究进展、AI 辅助方向和易混淆之处。
 
-| 内容 | PDF 页码 |
+| 阅读部分 | PDF 页码 |
 | --- | --- |
-| 封面、编制说明、排序方法与状态标记 | 1–4 |
+| 编制说明、排序方法与状态标记 | 1–4 |
 | 完整排名 | 5–9 |
 | 100 个详细条目 | 10–109 |
 | 领域索引 | 110–111 |
 | 阅读路径 | 112 |
 | 参考资料 | 113–124 |
 
-PDF 内的目录、相关条目和文末来源可点击跳转。仓库另提供 [Markdown 版完整目录](CATALOG.md)，便于在线浏览和检索；正文及来源说明以 PDF 为准。
+PDF 内置可点击目录、相关条目与来源链接。[CATALOG.md](CATALOG.md) 保留百大排名的完整目录，它不是三卷汇编的总目录。
 
-## 如何理解这份排名
+### 排名与研究状态
 
-- **编辑性排序**：名次来自 AI 对重要性的判断，不代表数学界投票、学术共识或可精确测量的客观评分，也不是 AI 最容易攻克的题目排名。
-- **条目口径**：同时收录单一猜想、开放问题及有代表性的猜想体系；部分合并列项，因此 100 项并非 100 个互不重叠的原子命题。
-- **排名与状态分开**：保留历史重要性位置，同时区分未解、部分结果、新结论跟踪、争议声明及近期证明文献，不能将本册称为“100 个均已确认仍未解决的猜想”。
-- **证据边界**：稿件公开、形式化检查、专家复核与广泛接受是不同层次；本册没有独立重证或逐行验证全部研究声明。AI 辅助方向属于编辑建议。
+- 排名属于编辑性判断，不代表数学界投票、学术共识或客观难度评分，也不是 AI 最容易攻克的问题榜单。
+- 条目包含单一猜想、开放问题和猜想体系；100 项不等于 100 个互不重叠的原子命题。
+- 原书区分一般版本未解决、已有部分结果、新结论跟踪、争议声明和近期证明文献。历史重要性与当前解决状态应分开理解。
+- 状态说明反映原版日期及文献核查范围；本次上传不构成对后续进展的重新验证。AI 辅助方向属于研究建议。
 
-研究状态按照原版日期及原文说明记录；本次 GitHub 发布不构成对后续研究进展或学界接受度的重新核验。
+## 三卷汇编：覆盖范围与计数口径
 
-## 文件
+**第一卷**围绕“能数清什么”建立统计口径，覆盖 17 个学科类别，提供 1,117 条题名标记索引与 1,417 条归档索引。正文刊入 17,614 条已发布记录；记录唯一性不等于数学语义上的完全去重。
 
-| 文件 | 说明 |
-| --- | --- |
-| [AI_Top_100_Mathematical_Conjectures_CN.pdf](AI_Top_100_Mathematical_Conjectures_CN.pdf) | 用户提供的中文原版 PDF，原样发布 |
-| [CATALOG.md](CATALOG.md) | 从原书第 5–9 页整理的 100 项目录 |
-| [cover.png](cover.png) | 从原版 PDF 第 1 页渲染的封面预览 |
-| [SHA256SUMS](SHA256SUMS) | 原版 PDF 的 SHA-256 校验值 |
+**第二卷**扩展检索入口，主要收录 MathDB 公开目录摘录和 Formal Conjectures 研究声明。筛查对照第一卷，但文本匹配、近似相似度和问题族识别不能证明所有保留项在数学上彼此独立。摘录也不一定包含完整条件和结论。
+
+**第三卷**包括 326 条明示猜想与研究问题、17,579 条 OEIS 历史与当前提及，以及 2,455 条论坛与文献定位资料；另列 9,342 个参数型问题实例。历史提及、讨论帖、定位线索和参数实例具有不同用途，应分别理解。
+
+这些数字描述各卷的**来源记录规模**，不能相加后称为“人类数学猜想总数”或“当前未解决猜想总数”。不同措辞的等价命题、问题变体、历史状态和跨来源重复仍需进一步核查。
+
+## 文件体积
+
+| 文档 | 原始大小 | 压缩后 |
+| --- | ---: | ---: |
+| 百大排名 | 0.62 MB | 0.43 MB |
+| 第一卷 | 18.89 MB | 14.71 MB |
+| 第二卷 | 77.06 MB | 45.19 MB |
+| 第三卷 | 31.60 MB | 26.42 MB |
+
+四份合计从约 128.17 MB 降至 86.76 MB，减少约 32.3%。大小按十进制 MB 计；校验文件对应仓库中的压缩版。
+
+## 获取文件与校验
 
 ```sh
-shasum -a 256 -c SHA256SUMS
+git clone https://github.com/ziyor-ai/Math-Conjectures-and-Open-Problems.git
+cd Math-Conjectures-and-Open-Problems
+sha256sum -c SHA256SUMS
 ```
 
-## 引用信息
+macOS 可使用 `shasum -a 256 -c SHA256SUMS`。Windows PowerShell 可使用 `Get-FileHash *.pdf -Algorithm SHA256`，与 [SHA256SUMS](SHA256SUMS) 中的值比对。
 
-沈阳（调度 AI 生成），《AI 认为的数学猜想前一百大排名：详尽说明》，2026 年 10 月 24 日版。
+| 辅助文件 | 说明 |
+| --- | --- |
+| [CATALOG.md](CATALOG.md) | 百大排名的 100 项 Markdown 目录 |
+| [cover.png](cover.png) | 百大排名 PDF 的封面预览 |
+| [SHA256SUMS](SHA256SUMS) | 四份 PDF 的 SHA-256 校验值 |
+
+本仓库当前提供 PDF 与阅读辅助文件；资料正文提及的外部数据库、源代码及机器可读数据，应通过各卷所列来源入口获取。
+
+## 引用与反馈
+
+引用具体问题时，优先引用原始论文或数据库条目，并保留版本与访问日期。引用本组汇编时，可按所使用文档填写：
 
 ```text
-沈阳（调度 AI 生成）. AI 认为的数学猜想前一百大排名：详尽说明.
-2026-10-24.
-https://github.com/ziyor-ai/AI-Top-100-Mathematical-Conjectures
+沈阳（调度 AI 生成）. AI 认为的数学猜想前一百大排名：详尽说明. 2026-10-24.
+沈阳（调度 AI 生成）. 人类数学猜想有多少？规模评估与可追溯资料汇编. 2026-10-25.
+沈阳（调度 AI 生成）. 数学猜想与开放问题：第二卷，第一卷之外的补充目录. 2026-10-25.
+沈阳（调度 AI 生成）. 数学猜想与开放问题：第三卷，多源补充与历史提及记录. 2026-10-25.
+仓库：https://github.com/ziyor-ai/Math-Conjectures-and-Open-Problems
 ```
+
+发现条目错误、来源失效或状态变化时，欢迎通过 [Issues](https://github.com/ziyor-ai/Math-Conjectures-and-Open-Problems/issues) 提供文档名、页码或记录编号、问题说明及可核验的原始来源。
 
 ## English overview
 
-**AI's Top 100 Mathematical Conjectures: Detailed Explanations** is a 124-page Chinese-language publication directed by Shen Yang and generated by AI, dated 24 October 2026. It offers an editorial importance ranking of 100 conjectures, open problems, and conjecture families, with research-status notes, suggested AI-assisted directions, and references. The ranking is not a community consensus or a list of 100 uniformly unsolved problems. Only the Chinese edition is included in this repository.
+**Mathematical Conjectures and Open Problems** brings together *AI's Top 100 Mathematical Conjectures* and three Chinese-language volumes of conjectures, open problems, source excerpts, and historical references, directed by **Shen Yang** and generated by AI.
+
+The Top 100 publication offers an editorial importance ranking with explanations, research-status notes, suggested AI-assisted directions, and references. The three companion volumes broaden the source coverage. Their counts refer to source records, not a verified global total of distinct unsolved conjectures. For research use, consult the original sources and check the precise formulation, assumptions, and current status of each problem.
+
